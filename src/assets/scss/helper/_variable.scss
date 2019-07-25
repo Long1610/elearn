@@ -1,0 +1,69 @@
+// variable color
+$color-black-0: #29303b; // default
+$color-black-1:#1E1E2A;
+$color-white-0: #fff; //default
+$color-red-0: #ec5252;
+$color-red-1: #521822;
+$color-purple: #6e1a52;
+$color-gray-1: rgba(20, 23, 28, 0.05);
+$color-gray-2: #a1a7b3;
+$color-gray-3: #cacbcc;
+$color-gray-4: #686f7a;
+$color-gray-5: #f7f8fa;
+$color-black-light: #505763;
+$color-white-cream: #f2f3f5;
+$color-black-dark: rgba(20, 23, 28, 0.1);
+$color-yellow: #f4c150;
+$color-blue: #007791;
+$color-trans:rgba(10, 10, 10, 0.1);
+$color-purple-1:#505170;
+// variable font-size
+$fs-0: 15px; //default
+$fs-1: 13px;
+$fs-2: 20px;
+$fs-3: 30px;
+$fs-6: 65px;
+//Còn 1 font-size: 36px;
+$fs-4: 40px;
+$fs-5: 50px;
+//variable margin
+$mg-0: 2px;
+$mg-1: 10px;
+$mg-2: 20px;
+$mg-3: 30px;
+$mg-4: 40px;
+$mg-5: 50px;
+$mg-6: 60px;
+$mg-7: 70px;
+$mg-8: 80px;
+$mg-10: 100px;
+//variable border-radius
+$border-radius: 2px;
+//variable padding
+$pd-0: 5px; //default
+$pd-1: 10px;
+$pd-2: 20px;
+$pd-3: 30px;
+$pd-4: 40px;
+$pd-5: 50px;
+$pd-6: 60px;
+$pd-7: 70px;
+$pd-8: 80px;
+$pd-9: 90px;
+$pd-10: 100px;
+//variable line-height
+$line-height-0: 1.43; //default
+
+//variable font-weight
+$fw-normal: normal;
+$fw-bold-0: 600;
+$fw-bold-1: 700;
+$fw-bold: bold;
+
+//break points
+$breakpoints: (
+  "extra-large": 1200px,
+  "large": 992px,
+  "medium": 768px,
+  "small": 576px
+);

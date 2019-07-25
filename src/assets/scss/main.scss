@@ -1,0 +1,25 @@
+
+@import 'base/reset';
+
+
+
+
+@import 'helper/variable';
+@import 'helper/mixin';
+@import 'helper/extend';
+@import 'helper/animation';
+
+@import 'layout/banner.scss';
+@import 'layout/header.scss';
+@import 'layout/footer.scss';
+@import 'base/normalized';
+@import 'component/button-lg-sup.scss';
+@import 'component/button-banner.scss';
+@import 'component/all-button.scss';
+@import 'component/background-cate.scss';
+@import 'component/detail-course.scss';
+@import 'page/admin.scss';
+@import 'page/detail-page.scss';
+@import 'page/login-sign.scss';
+@import 'page/search-course.scss';
+@import 'page/user-info.scss';

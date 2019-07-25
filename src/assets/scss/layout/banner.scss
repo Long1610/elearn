@@ -1,0 +1,26 @@
+.my-banner {
+  background-image: url("/img/IMG_2107.jpg");
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  position: relative;
+  .over-play {
+    background-color: #00000066;
+    height: 600px;
+  }
+  .banner-content {
+    z-index: 2;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-transform: uppercase;
+    .begin {
+      @include text($color-yellow, $fs-6, $fw-bold-1);
+    }
+    .become {
+      @include text($color-white-0, $fs-3, $fw-bold-1);
+    }
+  }
+}

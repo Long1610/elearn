@@ -1,0 +1,46 @@
+@mixin text($color, $fs, $fw) {
+  color: $color;
+  font-size: $fs;
+  font-weight: $fw;
+}
+@mixin button($pad-1, $pad-2,$color, $back, $fs, $fw) {
+  padding: $pad-1 $pad-2;
+  font-size: $fs;
+  color: $color;
+  background-color: $back;
+  font-weight: $fw;
+}
+@mixin button-border($pad-1, $pad-2,$fs, $fw,$color,$bg-color,$border-color,$bg-color-hover) {
+    padding: $pad-1 $pad-2;
+    color: $color;
+    background-color: $bg-color;
+    border-color: $border-color;
+    border:2px solid $border-color;
+    font-size: $fs;
+    font-weight: $fw;
+    &:hover {
+        background-color: $bg-color-hover;
+    }
+}
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media screen and (max-width: 576px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet-port {
+    @media screen and (max-width: 768px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet-land {
+    @media screen and (max-width: 992px) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+}

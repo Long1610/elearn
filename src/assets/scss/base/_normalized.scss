@@ -1,0 +1,66 @@
+// li.nav-item {
+//   margin: 0 14px;
+// }
+.MuiCardActions-root {
+  justify-content: center;
+}
+.MuiCardActionArea-root {
+  position: relative;
+  &:hover {
+    .detail-show {
+      transition: 0.6s;
+      top: 30%;
+    }
+    img.MuiCardMedia-root.MuiCardMedia-media {
+      opacity: 0.3;
+    }
+  }
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #00000029;
+}
+a.nav-title {
+  font-weight: $fw-bold-1;
+  font-size: $fs-2;
+}
+.nav-tabs .nav-item {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.btn-active.d-flex {
+  align-items: center;
+}
+th {
+  width: 20%;
+}
+td {
+  img {
+    width: 100%;
+  }
+}
+.pagination {
+  margin: auto;
+  display: inline-flex;
+  .active {
+    a {
+      color: #fff;
+      cursor: default;
+      background-color: #337ab7;
+      border-color: #337ab7;
+    }
+  }
+  li {
+    a,#btnPrev,#btnNext {
+      color: #23527c;
+      border-color: #ddd;
+      padding: 6px 12px;
+      line-height: 1.42857143;
+      color: #337ab7;
+      text-decoration: none;
+      background-color: #fff;
+      border: 1px solid #ddd;
+    }
+  }
+}

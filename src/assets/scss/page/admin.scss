@@ -1,0 +1,33 @@
+.my-admin {
+  width: 20%;
+  height: 100%;
+  background-color:$color-black-1;
+  text-align: center;
+  position: absolute;
+  color: $color-white-0;
+  box-shadow: 6px 7px 18px 6px;
+  .column-left {
+    padding-top: $pd-2;
+    img {
+      border-radius: 100px;
+      width: 35%;
+      margin-bottom: 10px;
+    }
+    .nav-link {
+      color: $color-yellow;
+      border-top: 1px solid $color-white-cream;
+      font-size: $fs-2;
+      text-transform: capitalize;
+      font-weight: $fw-bold-1;
+      &:last-child {
+        border-bottom: 1px solid $color-white-cream;
+      }
+    }
+  }
+}
+.table-admin {
+    width: 80%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}

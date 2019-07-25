@@ -1,0 +1,28 @@
+.user {
+  .user-form {
+    width: 75%;
+    .one-line {
+      justify-content: space-between;
+      input.my-text {
+          width:400px;
+      }
+    }
+  }
+  .user-info {
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      tr {
+        &:nth-child(even) {
+          background-color: #dddddd;
+        }
+      }
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+    }
+  }
+}

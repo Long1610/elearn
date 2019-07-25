@@ -1,0 +1,7 @@
+.btn-watch {
+    @include button($pd-1,$pd-3,$color-white-0,$color-yellow,$fs-2,$fw-bold-0);
+    margin-right: $mg-2;
+}
+.btn-advise {
+    @include button-border($pd-1,$pd-3,$fs-2,$fw-bold-0,$color-white-0,$color-trans,$color-white-0,$color-trans);
+}

@@ -1,0 +1,57 @@
+.wrap-login,.wrap-regis {
+  background-image: url("/img/keyboard.jpg");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  height:600px;
+  .my-form {
+    top: 20%;
+    height: 50%;
+  }
+  .my-regis {
+    height: 92%;
+    top: 5%;
+  }
+  .my-form,
+  .my-regis {
+    background: rgba(12, 12, 12, 0.81);
+    width: 35%;
+    margin: auto;
+    position: absolute;
+
+    left: 33%;
+    .header {
+      text-align: center;
+      padding: 10px 0;
+      h3 {
+        color: $color-yellow;
+      }
+    }
+    .form-input {
+      input.form-control {
+        position: relative;
+      }
+      padding: 0 40px;
+      span {
+        color: $color-white-0;
+        padding-bottom: $pd-1;
+        display: block;
+      }
+      span.icon1,
+      span.icon2 {
+        position: absolute;
+        right: 10%;
+        color: $color-yellow;
+      }
+      span.icon1 {
+        top: 33%;
+      }
+      span.icon2 {
+        top: 62%;
+      }
+      .btn-center {
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.all-course {
+    .course-content {
+        padding-top: $pd-1;
+        .about-course {
+            width:100%;
+            padding-left: $pd-3;
+            background-color: $color-gray-1;
+            a.nav-link {
+              padding: unset;
+            }
+        }
+    }
+    .title {
+        border-bottom: 1px solid black;
+    }
+}
